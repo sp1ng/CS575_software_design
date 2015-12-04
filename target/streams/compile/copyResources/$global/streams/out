@@ -1,4 +1,4 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/conf/application.conf,/mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/conf/play.plugins,/mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/target/scala-2.11/classes/play.plugins)[0m
-[0m[[0mdebug[0m] [0m	(/mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/conf/routes,/mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/conf/application.conf,/mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/conf/play.plugins,/mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/target/scala-2.11/classes/play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(/mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/conf/routes,/mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/target/scala-2.11/classes/routes)[0m

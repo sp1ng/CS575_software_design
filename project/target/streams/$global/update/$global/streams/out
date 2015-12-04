@@ -1,11 +1,11 @@
-[0m[[0minfo[0m] [0mUpdating {file:/mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/}cs-575-final-project-web-build...[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#cs-575-final-project-web-build;0.1-SNAPSHOT[0m
+[0m[[0minfo[0m] [0mUpdating {file:/mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/}cs575_software_design-build...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#cs575_software_design-build;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.play#sbt-plugin;2.3.9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.play#sbt-plugin;2.3.9 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.play#sbt-plugin;2.3.9[0m
@@ -2650,7 +2650,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe#webdriver_2.10;1.0.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-coffeescript;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-coffeescript;1.0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-coffeescript;1.0.0[0m
@@ -2673,7 +2673,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#mkdirp;0.3.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-uglify;1.0.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-uglify;1.0.3 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-uglify;1.0.3[0m
@@ -2733,7 +2733,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#uglifyjs;2.4.13->org.webjars#source-map;0.1.31-2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-digest;1.1.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-digest;1.1.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-digest;1.1.0[0m
@@ -2767,7 +2767,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving com.typesafe.sbt#sbt-gzip;1.0.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.sbt#sbt-gzip;1.0.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe.sbt#sbt-gzip;1.0.0[0m
@@ -2775,9 +2775,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->compile][0m
@@ -4829,7 +4829,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe#webdriver_2.10;1.0.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->compile][0m
@@ -4840,7 +4840,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#mkdirp;0.3.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->compile][0m
@@ -4866,7 +4866,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#source-map;0.1.31-2->org.webjars#amdefine;0.1.0-1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-digest;1.1.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime][0m
@@ -4884,14 +4884,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->compile][0m
@@ -6943,7 +6943,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe#webdriver_2.10;1.0.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->compile][0m
@@ -6954,7 +6954,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#mkdirp;0.3.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->compile][0m
@@ -6980,7 +6980,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#source-map;0.1.31-2->org.webjars#amdefine;0.1.0-1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-digest;1.1.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime][0m
@@ -6998,16 +6998,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.7 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.7 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.13.7 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.7 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.7[0m
@@ -7691,11 +7691,11 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->compile][0m
@@ -9747,7 +9747,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe#webdriver_2.10;1.0.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->compile][0m
@@ -9758,7 +9758,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#mkdirp;0.3.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->compile][0m
@@ -9784,7 +9784,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#source-map;0.1.31-2->org.webjars#amdefine;0.1.0-1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-digest;1.1.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime][0m
@@ -9802,16 +9802,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.7 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.7 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.7->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.7->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.7->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -10283,10 +10283,10 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->compile][0m
@@ -12338,7 +12338,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe#webdriver_2.10;1.0.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->compile][0m
@@ -12349,7 +12349,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#mkdirp;0.3.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->compile][0m
@@ -12375,7 +12375,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#source-map;0.1.31-2->org.webjars#amdefine;0.1.0-1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-digest;1.1.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime][0m
@@ -12393,16 +12393,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.play#sbt-plugin;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#sbt-plugin;2.3.9->com.typesafe.play#routes-compiler_2.10;2.3.9 [compile->compile][0m
@@ -14454,7 +14454,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe#webdriver_2.10;1.0.0 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-webdriver;1.0.0->com.typesafe.sbt#sbt-web;1.0.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-coffeescript;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->compile][0m
@@ -14465,7 +14465,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#mkdirp;0.3.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-uglify;1.0.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->compile][0m
@@ -14491,7 +14491,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#source-map;0.1.31-2->org.webjars#amdefine;0.1.0-1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->org.webjars#uglifyjs;2.4.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-uglify;1.0.3->com.typesafe.sbt#sbt-js-engine;1.0.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-digest;1.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-digest;1.1.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->com.typesafe.akka#akka-actor_2.10;2.3.2 [compile->runtime][0m
@@ -14509,16 +14509,16 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.webjars#webjars-locator;0.17->com.fasterxml.jackson.core#jackson-databind;2.3.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-web;1.1.1->org.webjars#webjars-locator;0.17 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->com.typesafe.sbt#sbt-gzip;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.0.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbt#sbt-gzip;1.0.0->com.typesafe.sbt#sbt-web;1.1.1 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.7 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.7 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.7->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.7->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.13.7->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
@@ -14990,18 +14990,18 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [plugin][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [sources][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [docs][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs-575-final-project-web-build;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#cs575_software_design-build;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
@@ -15019,8 +15019,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(compile)]}[0m
@@ -15033,11 +15033,11 @@
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#cs-575-final-project-web-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#cs575_software_design-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#sbt-plugin;2.3.9!sbt-plugin.jar[0m
@@ -15228,19 +15228,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.7!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4672ms :: artifacts dl 64ms[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT compile produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT runtime produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT test produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT provided produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT optional produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT compile-internal produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT runtime-internal produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT test-internal produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT plugin produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT sources produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT docs produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT pom produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for default#cs-575-final-project-web-build;0.1-SNAPSHOT scala-tool produced in /mnt/kup/projects/Drexel/CS575SofDes/As/A3/CS-575-Final-Project-Web/project/target/resolution-cache/reports/default-cs-575-final-project-web-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4672ms resolve - 64ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3622ms :: artifacts dl 64ms[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT compile produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT runtime produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT test produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT provided produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT optional produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT compile-internal produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT runtime-internal produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT test-internal produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT plugin produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT sources produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT docs produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT pom produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#cs575_software_design-build;0.1-SNAPSHOT scala-tool produced in /mnt/kup/projects/Drexel/CS575SofDes/CS575_software_design/project/target/resolution-cache/reports/default-cs575_software_design-build-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3622ms resolve - 64ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

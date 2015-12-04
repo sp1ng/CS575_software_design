@@ -4,7 +4,7 @@
 		module="cs-575-final-project-web_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20151203215954"
+		publication="20151203221647"
 	>
 		<description>
 		CS-575-Final-Project-Web
@@ -27,7 +27,9 @@
 	</configurations>
 	<publications>
 		<artifact name="cs-575-final-project-web_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="cs-575-final-project-web_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
+		<artifact name="cs-575-final-project-web_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="cs-575-final-project-web_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="cs-575-final-project-web_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>

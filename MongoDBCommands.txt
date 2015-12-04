@@ -1,0 +1,25 @@
+https://docs.mongodb.org/manual/tutorial/getting-started-with-the-mongo-shell/
+#Start mongodb:
+>mongod
+#when mongodb is started, run in the shell
+>mongo
+
+#list all databases
+>show dbs
+
+    local                  0.078GB
+    modern-web-template    0.78GB
+#switch to modern-web-template
+use modern-web-templates
+
+#show all the date
+show collections
+
+    system.indexes
+    users
+
+In the user localhost:port/dbName writing to users collection
+mongo commands:
+>use dbName
+>db.users.find()
+>db.histchanges.find()

@@ -1,59 +1,135 @@
-Modern Web Template
-===========
-
-**AngularJS - Scala - Play - Guice - PlayReactiveMongo**
-
-A full application stack for a Modern Web application, lets review the components:
-
-* **AngularJS** - client side javascript framework for creating complex MVC applications in Javascript,
-fronted with Twitter bootstrap CSS framework, because well, im not a web designer.
-  * Take a look at what the google cool kids are upto here : [AngularJS](http://angularjs.org/)
-
-* **Bootstrap** - Bootstrap components written in pure AngularJS
-  *  [http://angular-ui.github.io/bootstrap/](http://angular-ui.github.io/bootstrap/)
-
-* **CoffeeScript** - CoffeeScript is an attempt to expose the good parts of JavaScript in a simple way.
-  *  [http://coffeescript.org/](http://coffeescript.org/)
-
-* **PlayFramework** - currently using 2.3.9 with the scala API
-  *  [PlayFramework Docs](http://www.playframework.com/documentation/2.3.9/Home)
-
-* **Guice** integration for Dependency injection,
-  * Special thanks to the typesafehub team for their activator : [Play-Guice](http://www.typesafe.com/activator/template/play-guice)
-
-* **PlayReactiveMongo** gives interaction with MongoDB providing a non-blocking driver as well as some useful additions for handling JSON.
-  * Check out their GitHub: [Play-ReactiveMongo](https://github.com/ReactiveMongo/Play-ReactiveMongo)
+Prof. Brian Mitchell
+CS575 Final Project
+Georgi Simeonov
 
 
+Git Repo:  https://github.com/sp1ng/CS575_software_design.git
+Youtube: https://youtu.be/9toSu1bYKV0 
 
-Getting Started
-----------
+Setup (Linux/Windows – not tried on Mac)
 
-Your development environment will require:
-*  SBT / Play see [here]() for installation instructions.
-*  MongoDB see [here]() for installation instructions.
+1. Install Typesafe Activator(Activator, Scala, Play 2 )
+https://www.typesafe.com/activator/download
 
-Once the prerequisites have been installed, you will be able to execute the following from a terminal.
+Put activator executable in the PATH variables
 
-```
-../modern-web-template >  sbt run
-```
+2. Install MongoDB
+https://www.mongodb.org/downloads#production
+a. mkdir c:\test\mongodb\db 
+b. C:\mongodb\bin\mongod.exe --dbpath c:\test\mongodb\db 
+(Linux is the same: mongod –dbpath /tmp
 
-This should fetch all the dependencies and start a Web Server listening on *localhost:9000*
+3. Git clone
+git clone https://github.com/sp1ng/CS575_software_design.git project  
+or
+IntelliJ New> Project from version control> Git> paste the URL: https://github.com/sp1ng/CS575_software_design.git 
 
-```
-[info] Loading project definition from ../modern-web-template/project
-[info] Set current project to modern-web-template
-[info] Updating modern-web-template...
-...
-[info] Done updating.
+4. Compile
+>cd project 
+>activator compile
+(it should take 5-10min)
+Project loading failed: Retry
+Second time is the charm
 
---- (Running the application from SBT, auto-reloading is enabled) ---
 
-[info] play - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+5. Run
+>activator run
+or better for loading while making changes
+>activator "~run"
 
-(Server started, use Ctrl+D to stop and go back to the console...)
+http://localhost:9000
 
-```
+6. IntelliJ
+New> Project from existing source>Go to the proper path> Import from external model> SBT.
+Next
+Finish
 
-Note: This will create a MongoDB Collection for you automatically, a freebie from the Driver!
+
+
+7. Youtube link
+https://youtu.be/9toSu1bYKV0 
+
+
+Architecture Description
+
+User View
+
+
+
+
+
+
+
+
+
+
+
+The user is able to query the database, add new records, modify existing records, and delete records.
+
+
+High Level View
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Technical View
+URL Entered – is translated by the routes file, which points to Scala Play framework
+Action (it extend the Controller). The action itself call an html file 
+Index.scala.html (this is an html file that is integrated into the Play framework). 
+The html is using JavaScript files, which have been compiled in JavaScript by Coffee script. The JavaScript file use the Angular and BootStrap framework. Angular deals with managing input variables and Bootstrap has css templates that improve the look of the page. 
+The JavaScript files direct the traffic through URL address that gets translated by routes and get picked up Scala Controller again. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Build View 
+
+Activator – compile, run and manage dependencies with SBT
+SBT – downloads all the depencies/plugins that are specified in build.sbt. It actually uses ivy to manage the downloads
+ivy2 – used as a dependency manager similar to maven
+
+
+Information used:
+Play Framework Cookbook Second Edition
+Activator template – modern web template
